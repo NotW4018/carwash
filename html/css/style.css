@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'BebasKai';
+    src: url('../fonts/BebasKai.ttf') format('truetype');
+    font-weight: 300;
+}
+
+body {
+    font-family: 'BebasKai';
+}
+
+
+.glavno {
+    width: 46vh;
+    height: 50vh;
+    background-image: linear-gradient(to top right, rgb(0, 123, 168), rgb(55, 182, 228));
+    position: fixed;
+    left: 60vh;
+    border-radius: .5vh;
+    top: 25vh;
+}
+
+
+.slikica{
+    position: absolute;
+    height: 10vh;
+    top: 63vh;
+    left: 60vh;
+
+}
+
+
+.stisni{
+    padding: 4vh 8vh;
+    background: linear-gradient(340deg, rgba(0, 33, 52, 0.446) 30%,rgba(34, 34, 34, 0.618) 76%, rgba(56, 56, 56, 0.898) 110%);
+    color: rgb(245, 242, 242);
+    position: absolute;
+    border-radius: 0.5vh;
+    left: 70vh;
+    top: 47vh;
+    font-size: 6vh;
+    font-weight: 500;
+    transition: all ease-in-out 0.2s;
+}
+.stisni:hover{
+    opacity: 0.9;
+    transition: all ease-in-out 0.2s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
